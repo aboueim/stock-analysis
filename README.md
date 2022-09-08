@@ -12,7 +12,7 @@ To help Steve's parents to decide on available which investment options.
 
 ### VBA Code
 
-Following represents the final script for the stock performance analysis:
+Following represents the refactored script for the stock performance analysis:
 
 Sub AllStocksAnalysisRefactored()
     Dim startTime As Single
