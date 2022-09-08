@@ -6,7 +6,7 @@ In this project, I aim to conduct a stock market performace analyses through scr
 
 ### Purpose
 
-To help Steve's parents to decide on which tickers to invest.
+To help Steve's parents to decide on available which investment options.
 
 ## Analysis
 
