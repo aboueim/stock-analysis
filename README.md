@@ -236,7 +236,7 @@ In general, refactoring code allows for restructuring an existing code without c
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
-The original script 
+The major influence of refactoring on the original VBA code written throughout this module was improving the performance of "For" loops by defining an indexing variable which allows to loop through all the data one time.
 
 
 
