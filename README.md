@@ -228,3 +228,9 @@ End Sub
 ![This is an image](/VBA_Challenge_2018.png)
 
 
+## Summary
+
+### What are the advantages or disadvantages of refactoring code?
+
+
+
