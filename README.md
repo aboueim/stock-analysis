@@ -88,7 +88,9 @@ Sub AllStocksAnalysisRefactored()
             
     ''2b) Loop over all the rows in the spreadsheet.
 
-    
+
+            Worksheets(yearValue).Activate
+                
             For j = startingRow To RowCount
     
     
@@ -236,9 +238,5 @@ In general, refactoring code allows for restructuring an existing code without c
 
 ### How do these pros and cons apply to refactoring the original VBA script?
 
-The major influence of refactoring on the original VBA code written throughout this module was improving the performance of "For" loops by defining an indexing variable which allows to loop through all the data one time.
-
-
-
-
+The major influence of refactoring on the original VBA code written throughout this module was improving the performance of "For" loops by defining an indexing variable which allows to loop through all the data one time. In fact in the initial version, the VBA code would conduct analysis for each ticker separately and run it 12 times. However, the refactored code would do all the calculations for all the tickers at once and store them together. This way, the code spend 11 times less by looping the entire rows once. Although this structural change looks reasonable and expected to improve performance, the low overall running time for both coding structures suggests that, following the logic discussed in the previous question, this single refactoring action may not justify its essentiality in case there were other tasks at hand with high priority.
 
